@@ -48,14 +48,14 @@ namespace KickblastJudoGym
             if (startX < 20) startX = 20;
             if (startY < 20) startY = 20;
 
-            label1.Location = new Point(startX + 39, startY + 29);
-            textBox1.Location = new Point(startX + 213, startY + 23);
+            label1.Location = new Point(startX + 25, startY + 25);
+            textBox1.Location = new Point(startX + 210, startY + 23);
 
-            label2.Location = new Point(startX + 39, startY + 119);
-            textBox2.Location = new Point(startX + 213, startY + 119);
+            label2.Location = new Point(startX + 25, startY + 115);
+            textBox2.Location = new Point(startX + 210, startY + 113);
 
-            log_in.Location = new Point(startX + 0, startY + 270);
-            button1.Location = new Point(startX + 300, startY + 270);
+            log_in.Location = new Point(startX + 0, startY + 265);
+            button1.Location = new Point(startX + 300, startY + 265);
         }
 
         private void LoadBackgroundImage()
