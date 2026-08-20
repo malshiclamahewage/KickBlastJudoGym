@@ -14,7 +14,6 @@ namespace KickblastJudoGym
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Set up high-contrast crisp labels over background
             label1.Parent = pictureBox1;
             label1.BackColor = Color.Transparent;
             label1.ForeColor = Color.White;
@@ -23,12 +22,40 @@ namespace KickblastJudoGym
             label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.White;
 
-            // Load background image
             LoadBackgroundImage();
 
-            // Default credentials
             if (string.IsNullOrEmpty(textBox1.Text)) textBox1.Text = "admin";
             if (string.IsNullOrEmpty(textBox2.Text)) textBox2.Text = "1234";
+
+            CenterLoginControls();
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            CenterLoginControls();
+        }
+
+        private void CenterLoginControls()
+        {
+            if (this.ClientSize.Width <= 0 || this.ClientSize.Height <= 0) return;
+
+            int centerX = this.ClientSize.Width / 2;
+            int centerY = this.ClientSize.Height / 2;
+
+            int startX = centerX - 260;
+            int startY = centerY - 175;
+
+            if (startX < 20) startX = 20;
+            if (startY < 20) startY = 20;
+
+            label1.Location = new Point(startX + 39, startY + 29);
+            textBox1.Location = new Point(startX + 213, startY + 23);
+
+            label2.Location = new Point(startX + 39, startY + 119);
+            textBox2.Location = new Point(startX + 213, startY + 119);
+
+            log_in.Location = new Point(startX + 0, startY + 270);
+            button1.Location = new Point(startX + 300, startY + 270);
         }
 
         private void LoadBackgroundImage()
