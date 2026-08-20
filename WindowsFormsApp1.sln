@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickblastJudoGymproramming", "WindowsFormsApp1\KickblastJudoGymproramming.csproj", "{066D30B6-49B1-4414-8AC9-403B1B175C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration_Form", "Registration_Form\Registration_Form.csproj", "{CF1DB454-157D-4ADB-8EB5-51A0C928F9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard_Kickblast Judo_Gym", "Dashboard_Kickblast Judo_Gym\Dashboard_Kickblast Judo_Gym.csproj", "{F5018648-AD04-4D55-AF42-1B10FA20BB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "WinFormsApp2\WinFormsApp2.csproj", "{7FA5D57A-4818-4EBA-B0E2-947E1B423E9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066D30B6-49B1-4414-8AC9-403B1B175C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066D30B6-49B1-4414-8AC9-403B1B175C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066D30B6-49B1-4414-8AC9-403B1B175C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066D30B6-49B1-4414-8AC9-403B1B175C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1DB454-157D-4ADB-8EB5-51A0C928F9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1DB454-157D-4ADB-8EB5-51A0C928F9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1DB454-157D-4ADB-8EB5-51A0C928F9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1DB454-157D-4ADB-8EB5-51A0C928F9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5018648-AD04-4D55-AF42-1B10FA20BB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5018648-AD04-4D55-AF42-1B10FA20BB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5018648-AD04-4D55-AF42-1B10FA20BB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5018648-AD04-4D55-AF42-1B10FA20BB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA5D57A-4818-4EBA-B0E2-947E1B423E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA5D57A-4818-4EBA-B0E2-947E1B423E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA5D57A-4818-4EBA-B0E2-947E1B423E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA5D57A-4818-4EBA-B0E2-947E1B423E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+# Build & Binary Output Directories
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Temporary Scratch Files
+*.log
+extract.ps1
+copy_files.ps1
+assignment_text.txt
+docx_text.txt
